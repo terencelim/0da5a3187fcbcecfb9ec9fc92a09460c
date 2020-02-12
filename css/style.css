@@ -1,0 +1,155 @@
+        @charset "UTF-8";
+        
+        /* Main
+        --------------------------------------------------------------------------------------- */
+
+        /* font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Righteous', cursive; */
+
+        body 
+            {
+            /* font-family: 'Righteous', cursive; */
+            color: white;
+        /*    background-color: #003; */
+            /*background: url('../images/fruit_allsorts_pineapple_melon_grapes_orange_tangerine_kiwi_apples_basket_43780_1920x1080_blur.jpg'); */
+            /*background: url('../images/fruit_allsorts_pineapple_melon_grapes_orange_tangerine_kiwi_apples_basket_43780_1920x1080_blur_02.jpg'); */
+            /*background: url('../images/fruit_allsorts_pineapple_melon_grapes_orange_tangerine_kiwi_apples_basket_43780_1920x1080_blur_03.jpg'); */
+            /* background: url('../images/pattern-overlay.png') repeat; */
+            margin: 0px
+            }
+        
+        #horizon
+            {
+            color: #009966;
+        /*    background-color: white;
+        */    text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            width: 100%;
+            height: 1px;
+            overflow: visible;
+            visibility: visible;
+            display: block
+            }
+        
+        #content
+            {
+            /*font-family: Verdana, Geneva, Arial, sans-serif;*/
+        /*    background-color: #336699;
+        */    margin-left: -400px;
+            position: absolute;
+            /*top: -45px;*/
+            top: -68px;
+            left: 50%;
+            width: 800px;
+            height: 56px;
+            visibility: visible
+            }
+        
+        .bodytext 
+            {
+            font-size: 14px
+            }
+        
+        .headline 
+            {
+            /*font-family:Verdana, Arial, Helvetica, sans-serif;*/
+            font-weight: bold;
+            font-size: 24px
+            }
+        
+        #footer 
+            {
+            font-size: 11px;
+            /*font-family: Verdana, Geneva, Arial, sans-serif;*/
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 20px;
+            visibility: visible;
+            display: block
+            }
+        
+        a:link, a:visited 
+            {
+            color: #06f;
+            text-decoration: none
+            }
+        
+        a:hover 
+            {
+            color: red;
+            text-decoration: none
+            }
+        
+        .captions  
+            {
+            color: white;
+            font-size: 10px;
+            line-height: 14px;
+            /*font-family: Verdana, Geneva, Arial, sans-serif;*/
+            text-align: left
+            }
+        .style3 {
+            /*font-family: Verdana, Arial, Helvetica, sans-serif; */
+            font-size: 68px;
+            font-weight: bold; 
+            letter-spacing: 8px;
+            /* color: slategray; */
+            color: #007dc1;
+            }
+        .style7 {
+            font-weight: bold;
+            font-size: 18px;
+            color: #666666;
+        }
+        .style8 {font-weight: bold; font-size: 16px;}
+        .style18 {color: #3169B6}
+
+        .preview-overlay {
+            position: relative;
+            display: block;
+            background-color: #fff;
+        }
+        
+        .preview-overlay:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* background: url("../images/pattern-overlay.png"); */
+            z-index: 200;
+        }
+
+        /*#caption1    
+            {
+            padding-left: 6px;
+            border-left: 1px dashed #66c;
+            position: absolute;
+            top: -80px;
+            left: -200px;
+            width: 250px;
+            height: 80px;
+            visibility: visible;
+            display: block
+            }*/
+        
+        /*#caption2    
+            {
+            padding-left: 6px;
+            border-left: 1px dashed #66c;
+            position: absolute;
+            top: 92px;
+            left: 125px;
+            width: 250px;
+            height: auto;
+            visibility: visible;
+            display: block
+            }*/
