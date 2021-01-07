@@ -43,8 +43,8 @@
     var greenIcon = L.icon({
         //  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg',
         //  shadowUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg',
-        iconUrl: '../assets/img/20201219 - Aigilist Map Marker.svg',
-        shadowUrl: '../assets/img/20201219 - Aigilist Map Marker.svg',
+        iconUrl: './assets/img/20201219 - Aigilist Map Marker.svg',
+        shadowUrl: './assets/img/20201219 - Aigilist Map Marker.svg',
 
         iconSize:     [64, 64], // size of the icon
         shadowSize:   [64, 64], // size of the shadow
