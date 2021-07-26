@@ -12,7 +12,9 @@
     // - [ ] Re-style
     //
     // Creating map options
-    var geoLoc = [-33.8687, 151.2093];
+    // var geoLoc = [-33.8687, 151.2093];
+    var geoLoc = [-33.825, 151.1971];
+       
     var mapOptions = {
         // center: [-33.8604, 151.2092],
         center: geoLoc,
